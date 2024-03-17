@@ -7,7 +7,7 @@ type TournamentOptions = {
 
 
 
-export default class Tournament<T> {
+export class Tournament<T> {
     private players: T[];
     private opts: TournamentOptions
     private round: number
